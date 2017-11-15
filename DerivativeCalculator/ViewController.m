@@ -19,6 +19,7 @@
     [super viewDidLoad];
 
     _calculateButton.layer.borderWidth = 2.0f;
+    _calculateButton.layer.backgroundColor = [UIColor yellowColor].CGColor;
     _calculateButton.layer.cornerRadius = 10;
     _calculateButton.clipsToBounds = YES;
     _calculateButton.layer.borderColor = [UIColor blueColor].CGColor;
@@ -37,11 +38,12 @@
     _variableTextfield.layer.borderColor = [UIColor blackColor].CGColor;
     
     _chainFunctionButton.layer.borderWidth = 2.0f;
+    _chainFunctionButton.layer.backgroundColor = [UIColor greenColor].CGColor;
     _chainFunctionButton.layer.cornerRadius = 10;
     _chainFunctionButton.clipsToBounds = YES;
     _chainFunctionButton.layer.borderColor = [UIColor blueColor].CGColor;
 
-    
+
 }
 
 
